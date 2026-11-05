@@ -1,8 +1,10 @@
 # Supplementary material
 
-**How Many Count Distributions Can a Dataset Tell Apart? Sample-Size Limits for Comparing Lindley-Type Mixed Poisson Models**
+**When can a dataset tell Lindley-type count models apart? Sample-size limits and the behaviour of AIC**
 
-All code is base R (it uses only the `parallel` package that ships with R), plus one Python 3 script that uses only the standard library.
+Ahmad A. Hanandeh. Code and data accompanying the manuscript submitted to *Statistical Papers*.
+
+All code is base R (it uses only the `parallel` package that ships with R), plus Python 3 scripts: `matched_kl_series.py` uses only the standard library, and the scripts in `python_theory/` (symbolic and numerical checks of Theorems 1–5) need `sympy`, `mpmath`, `numpy`, `scipy`, `matplotlib` and `rdata`.
 
 ## R package
 
